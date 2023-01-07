@@ -3,6 +3,7 @@ import { Counter } from './Components/Counter';
 import Todo from './Components/Todo';
 import Toggle from './Components/Toggle';
 import Apidata from './Components/Apidata';
+import FetchApi from './Components/Fetch';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
      {/* <Counter/> */}
      {/* <Toggle/> */}
      {/* <Todo/> */}
-     <Apidata/>
+     {/* <Apidata/> */}
       {/* </header> */}
+      <FetchApi/>
  
     </div>
   );
