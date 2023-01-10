@@ -1,36 +1,30 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 const FetchApi = () => {
   const [data, setData] = useState([]);
   //fetch  then //try--  catch  data is in stream form so we need to convert it into readable form so we hav to do json()
   //axios  then //try--- catch  data will be in readable form
 
-  const Api = () => {
-    // const Api = async() => {
-    axios
-      .get("https://fakestoreapi.com/products")
-      .then((res) => {
-        setData(res.data);
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.log("err");
-      });
+  // const Api = () => {
+    const Api = async() => {
+    // axios
+    //   .get("https://fakestoreapi.com/products")
+    //   .then((res) => {
+    //     setData(res.data);
+    //     console.log(res.data);
+    //   })
+    //   .catch((err) => {
+    //     console.log("err");
+    //   });
 
-    //   let res=await fetch("https://fakestoreapi.com/products")
-    //   res=await res.json();
-    //   console.log(res)
-    //   setData(res)
+      let res=await fetch("https://fakestoreapi.com/products")
+      res=await res.json();
+      console.log(res)
+      setData(res)
       
 
   };
-
-
-
-
-
-
 
 
   useEffect(() => {
