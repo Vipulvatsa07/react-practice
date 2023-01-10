@@ -1,9 +1,9 @@
 import './App.css';
-import { Counter } from './Components/Counter';
-import Todo from './Components/Todo';
-import Toggle from './Components/Toggle';
-import Apidata from './Components/Apidata';
-import FetchApi from './Components/Fetch';
+import { Counter } from './Components/Basic/Counter';
+import Todo from './Components/Todo/Todo';
+import Toggle from './Components/Basic/Toggle';
+import Apidata from './Components/Apifetch/Apidata';
+import FetchApi from './Components/Apifetch/Fetch';
 import Routing from './Components/Routing/Routing';
 
 
@@ -17,7 +17,7 @@ function App() {
      {/* <Apidata/> */}
       {/* </header> */}
       {/* <FetchApi/> */}
-      <Routing/>
+      {/* <Routing/> */}
  
     </div>
   );
