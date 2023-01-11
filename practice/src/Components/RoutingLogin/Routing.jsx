@@ -1,4 +1,4 @@
-import AllRoutes from "./RouteNavbar/AllRoutes"
+import AllRoutes from "./AllRoutes/AllRoutes"
 import Navbar from "./RouteNavbar/Navbar"
 const Routing=()=>{
     return (

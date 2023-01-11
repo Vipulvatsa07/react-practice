@@ -4,7 +4,8 @@ import Todo from './Components/Todo/Todo';
 import Toggle from './Components/Basic/Toggle';
 import Apidata from './Components/Apifetch/Apidata';
 import FetchApi from './Components/Apifetch/Fetch';
-import Routing from './Components/Routing/Routing';
+import Routing from './Components/RoutingLogin/Routing';
+import Routingbas from './Components/Routingbasics/Routingbas';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
      {/* <Apidata/> */}
       {/* </header> */}
       {/* <FetchApi/> */}
-      {/* <Routing/> */}
+      <Routing/>
+      {/* <Routingbas/> */}
  
     </div>
   );
