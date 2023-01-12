@@ -1,5 +1,5 @@
 import AllRoutes from "./AllRoutes/AllRoutes"
-import Navbar from "./RouteNavbar/Navbar"
+import Navbar from "./Navbar/Navbar"
 const Routing=()=>{
     return (
         <div>
