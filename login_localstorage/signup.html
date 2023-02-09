@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      form {
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px #ccc;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      #name,#email,#password {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      /* input[type="radio"] {
+        margin-right: 10px;
+      } */
+      #radio
+      {
+        margin-right: 10px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button{
+        width: 150px;
+        height:40px;
+        /* margin-left: 70px; */
+        /* align-self: center; */
+        float:inline-start;
+        background-color:greenyellow;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div >
+    <div style="margin: auto"><button onclick="login()">Login</button></div>
+    <div>
+    <form id="signup-form">
+      <h2>Sign Up</h2>
+      <label>
+        Name:
+        <input type="text" id="name" placeholder="Enter name" required />
+      </label>
+      <label>
+        Email:
+        <input type="email" id="email" placeholder="Enter email" value="" required/>
+      </label>
+      <label id="radio">
+        Gender:
+        <input type="radio" id="gender" name="gender" value="male" required /> Male
+        <input type="radio" id="gender" name="gender" value="female" required /> Female
+        <input type="radio" id="gender" name="gender" value="other" required /> Other
+      </label>
+      <label>
+        Password:
+        <input type="password" id="password" value="" required />
+      </label>
+      <input type="submit" value="Sign Up" />
+      
+    </form>
+</div>
+</div>
+<script src="signup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        padding: 8px;
+        margin: 10px 0;
+        width: 300px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        padding: 8px 16px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="login-form">
+      <h2>Login</h2>
+      <input type="text" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="submit" value="Submit">
+    </form>
+
+    <script src="login.js"></script>
+  </body>
+</html>
