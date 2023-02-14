@@ -1,0 +1,25 @@
+.heading {
+    text-align: center;
+  }
+  
+  .form {
+    margin-left: 10px;
+  }
+  
+  .todo-item {
+gap: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item p {
+    margin: 5px 0;
+  }
+  
+  .todo-item button {
+    margin-right: 10px;
+  }
