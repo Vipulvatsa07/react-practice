@@ -1,12 +1,6 @@
 {
   "todo": [
     {
-      "id": 1676383974436,
-      "name": "vipul",
-      "task": "hawabazi",
-      "day": "saturday"
-    },
-    {
       "id": 1676385107860,
       "name": "vipul",
       "task": "kuch imp",
@@ -23,6 +17,24 @@
       "name": "balli",
       "task": "puri sabzi",
       "day": "tuesday"
+    },
+    {
+      "id": 1676456300838,
+      "name": "shubham",
+      "task": "holi celebration",
+      "day": "friday"
+    },
+    {
+      "id": 1676456546928,
+      "name": "assmit",
+      "task": "dhoom 2",
+      "day": "sunday"
+    },
+    {
+      "id": 1676456880939,
+      "name": "vipul",
+      "task": "dhoom 5",
+      "day": "daily"
     }
   ]
 }

@@ -56,6 +56,10 @@ const Todo = () => {
     {
       alert("fill all the required fields")
     }
+    setDay("")
+    setName("")
+    setTask("")
+
   }
   
 
@@ -87,6 +91,9 @@ const Todo = () => {
     {
       alert("fill all the required fields")
     }
+    setDay("")
+    setName("")
+    setTask("")
     
   };
 
@@ -135,6 +142,7 @@ const Todo = () => {
           <input
             type="text"
             value={task}
+            
             onChange={(e) => setTask(e.target.value)}
           />
         
@@ -155,6 +163,7 @@ const Todo = () => {
           <input
             type="text"
             value={name}
+            
             onChange={(e) => setName(e.target.value)}
           />
         </label>
