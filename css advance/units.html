@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        font-size: 2rem;
+        /* it take 100% of default fontsize */
+      }
+      div {
+        font-size: 20px;
+      }
+      span {
+        font-size: 2em;
+        /* it take the fontsize of it's parent */
+      }
+      .main{
+        width: 300px;
+        border: 1px solid red;
+      }
+      .viewport {
+        background-color: aqua;
+        /* height: 100%; */
+        width: 30vh;
+        /* it will not take 30% of it's parent it will take 30% of its browser */
+        height: 20vh;
+        /* 100vh means 100% of viewport height */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>vipul vatsa</p>
+      <span>hello from em</span>
+    </div >
+    <div class="main"><div class="viewport"></div></div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+div
+{
+    width: 100px;
+    height: 100px;
+}
+div:nth-child(1)
+{
+    background-color: red;
+    /* position: static; */
+    /* static is default value for our position property */
+/* ---------------------------------------------------------------------- */
+    /* position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%)  */
+    /* with position relative we have superpowers  */
+    /* left|right|top|bottom
+    /*-------------------------------------------------------------------  */
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    /* this takes the vacant position also */
+}
+div:nth-child(2)
+{
+    background-color: teal;
+}
+div:nth-child(3)
+{
+    background-color: aqua;
+}
